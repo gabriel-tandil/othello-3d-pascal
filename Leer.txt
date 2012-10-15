@@ -1,0 +1,36 @@
+\Grupo Nro: 104
+Integrantes: ZEMMA, Gaston Alejandro; ALVAREZ, Gabriel Alberto
+Ayudante: ROSSI, Fernando
+Trabajo Practico Final de Introduccion a la Programacion I
+Fecha de ultima modificacion: 5/6/2000
+Version: 2
+
+  El programa fue escrito originalmente en dos partes, una el juego
+propiamente dicho, y otra el motor de 3 dimensiones.
+  Luego se mezclaron los dos codigos y hubo que pensar como hacer coincidir
+las X y O de la matriz del juego con las coordenadas de las fichas del tablero
+en 3 dimensiones; para esto se hizo que la matriz en vez de un 'char' tuviera
+un registro con un 'char' y un 'byte'. El numero (el 'byte') hace referencia 
+al subindice del arreglo de fichas en 3 dimensiones.
+
+  Notese que algunas variables son globales a riesgo de perjudicar la
+estructuracion del programa, esto es porque en el Turbo Pascal de Borland,
+que es con el que se nos dijo se iba a compilar nuestro programa para
+evaluarlo se dispone de un stack (pila) muy chico.
+
+  Problema conocido: Cuando se mueve el tablero, y alguna pieza o el cursor
+del mouse queda fuera de la pantalla en sentido vertical se interrumpe la
+ejecucion del programa con un error de punto flotante. Esto es porque se
+van de rango algunas variables.
+  Por lo demas entendemos que el programa trabaja correctamente.
+
+  Nota: El motor de 3 dimensiones fue programado en base a una serie de tutoriales
+y apuntes sobre programacion grafica. Principalmente estudiando la serie de
+tutoriales de FAC (aka Alfonso Alba).
+
+  Nota adicional: Para compilar el programa y las unidades marcar los
+casilleros '286 instructions' y '8087/80287' en opciones del compilador.
+
+
+                                 Gabriel A. Alvarez
+                                 Gaston A. Zemma
