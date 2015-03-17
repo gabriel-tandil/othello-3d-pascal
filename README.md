@@ -2,5 +2,5 @@ Implementacion del juego Othello (o reversi) en 3d con pascal Realizado en el a√
 
 Notas sobre el proyecto
 -----------------------
-    Programado y compilado con Turbo Pascal 7 (borland)
-    Corre en modo de video 13h (320x200) 
+*Programado y compilado con Turbo Pascal 7 (borland)
+*Corre en modo de video 13h (320x200) 
